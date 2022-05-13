@@ -1,0 +1,4 @@
+images
+*.pdf
+*.otf
+.DS_Store

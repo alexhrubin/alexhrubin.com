@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Fog City Gothic";
+    src: url('FogCityGothic-Regular.otf');
+}
+@font-face {
+    font-family: "Fog City Gothic Wide";
+    src: url('FogCityGothic-Wide.otf');
+}
+
+body {
+    background-color: rgb(255, 255, 245);
+}
+
+h1 {
+    font-family: "Fog City Gothic Wide";
+    font-size: 80px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-family: "Arial", Arial, sans-serif;;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+}
