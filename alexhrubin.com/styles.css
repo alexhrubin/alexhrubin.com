@@ -8,28 +8,84 @@
 }
 
 h1 {
-    font-family: "Fog City Gothic Wide";
-    font-size: 80px;
+    font-family: "Fog City Gothic Wide", sans-serif;
+    font-size: 40px;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 0px;
 }
 
-p {
-    font-family: "Arial", Arial, sans-serif;;
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    margin: 40px;
+    background: #fdfdfd;
+    color: #222;
 }
 
-a {
-    text-decoration: none;
+hr {
+    margin-bottom: -1em;
 }
 
 .flex-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+}
+
+.flex-container p:first-child {
+    margin-top: 0;
 }
 
 .flex-container > div {
     margin: 10px;
     padding: 20px;
+}
+
+ul {
+    padding-left: 1.2em;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-container > div {
+        max-width: 90%;
+        padding: 10px;
+    }
+}
+
+.link-columns {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.link-columns > div {
+    flex: 1;
+}
+
+.link-columns ul {
+    padding-left: 1.2em;
+    margin-top: 5px;
+}
+
+.link-columns {
+    margin-top: -0.7em;
 }
