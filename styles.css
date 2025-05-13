@@ -89,3 +89,22 @@ a:hover {
 /* .link-columns {
     margin-top: -0.7em;
 } */
+
+.papers {
+  margin-top: 2em;
+}
+
+.papers h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.papers ul {
+  list-style: disc;
+  margin-left: 1.2em;
+}
+
+.papers li {
+  margin-bottom: 0.8em;
+  line-height: 1.4;
+}
